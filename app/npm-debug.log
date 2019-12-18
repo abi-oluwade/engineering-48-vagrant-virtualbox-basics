@@ -45,21 +45,21 @@
 30 silly mapToRegistry uri https://registry.npmjs.org/jenkins-mocha
 31 verbose request uri https://registry.npmjs.org/istanbul
 32 verbose request no auth needed
-33 info attempt registry request try #1 at 9:48:12 AM
-34 verbose request id 661320927f6afe56
+33 info attempt registry request try #1 at 10:31:42 AM
+34 verbose request id a6faaea81ddcf707
 35 http request GET https://registry.npmjs.org/istanbul
 36 verbose request uri https://registry.npmjs.org/jenkins-mocha
 37 verbose request no auth needed
-38 info attempt registry request try #1 at 9:48:12 AM
+38 info attempt registry request try #1 at 10:31:42 AM
 39 http request GET https://registry.npmjs.org/jenkins-mocha
 40 http 200 https://registry.npmjs.org/jenkins-mocha
-41 verbose headers { date: 'Wed, 18 Dec 2019 09:48:13 GMT',
+41 verbose headers { date: 'Wed, 18 Dec 2019 10:31:45 GMT',
 41 verbose headers   'content-type': 'application/json',
 41 verbose headers   'transfer-encoding': 'chunked',
 41 verbose headers   connection: 'keep-alive',
-41 verbose headers   'set-cookie': [ '__cfduid=d44329bec23d00a345bd52f43442281ba1576662493; expires=Fri, 17-Jan-20 09:48:13 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
-41 verbose headers   'cf-ray': '54703848da7de600-LHR',
-41 verbose headers   age: '2985',
+41 verbose headers   'set-cookie': [ '__cfduid=dde0e5d2a4b2ae700600f9a33e3eac3a51576665105; expires=Fri, 17-Jan-20 10:31:45 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+41 verbose headers   'cf-ray': '5470780aee176a23-LHR',
+41 verbose headers   age: '5597',
 41 verbose headers   'cache-control': 'public, max-age=300',
 41 verbose headers   etag: 'W/"ca912abbd4c79e70b81cb5054f87f1d5"',
 41 verbose headers   'last-modified': 'Mon, 01 Jul 2019 03:50:38 GMT',
@@ -69,13 +69,13 @@
 41 verbose headers   server: 'cloudflare',
 41 verbose headers   'content-encoding': 'gzip' }
 42 silly get cb [ 200,
-42 silly get   { date: 'Wed, 18 Dec 2019 09:48:13 GMT',
+42 silly get   { date: 'Wed, 18 Dec 2019 10:31:45 GMT',
 42 silly get     'content-type': 'application/json',
 42 silly get     'transfer-encoding': 'chunked',
 42 silly get     connection: 'keep-alive',
-42 silly get     'set-cookie': [ '__cfduid=d44329bec23d00a345bd52f43442281ba1576662493; expires=Fri, 17-Jan-20 09:48:13 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
-42 silly get     'cf-ray': '54703848da7de600-LHR',
-42 silly get     age: '2985',
+42 silly get     'set-cookie': [ '__cfduid=dde0e5d2a4b2ae700600f9a33e3eac3a51576665105; expires=Fri, 17-Jan-20 10:31:45 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+42 silly get     'cf-ray': '5470780aee176a23-LHR',
+42 silly get     age: '5597',
 42 silly get     'cache-control': 'public, max-age=300',
 42 silly get     etag: 'W/"ca912abbd4c79e70b81cb5054f87f1d5"',
 42 silly get     'last-modified': 'Mon, 01 Jul 2019 03:50:38 GMT',
@@ -87,13 +87,13 @@
 43 verbose get saving jenkins-mocha to /root/.npm/registry.npmjs.org/jenkins-mocha/.cache.json
 44 verbose correctMkdir /root/.npm correctMkdir not in flight; initializing
 45 http 200 https://registry.npmjs.org/istanbul
-46 verbose headers { date: 'Wed, 18 Dec 2019 09:48:13 GMT',
+46 verbose headers { date: 'Wed, 18 Dec 2019 10:31:45 GMT',
 46 verbose headers   'content-type': 'application/json',
 46 verbose headers   'transfer-encoding': 'chunked',
 46 verbose headers   connection: 'keep-alive',
-46 verbose headers   'set-cookie': [ '__cfduid=de4ed86788389da9da0fd71d3127df0121576662493; expires=Fri, 17-Jan-20 09:48:13 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
-46 verbose headers   'cf-ray': '54703848eb67f423-LHR',
-46 verbose headers   age: '3064',
+46 verbose headers   'set-cookie': [ '__cfduid=dbf07a488d876951da54a785e2e41575d1576665105; expires=Fri, 17-Jan-20 10:31:45 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+46 verbose headers   'cf-ray': '5470780aed7ee658-LHR',
+46 verbose headers   age: '5676',
 46 verbose headers   'cache-control': 'public, max-age=300',
 46 verbose headers   etag: 'W/"ebc21bec19266e2b5fb7fb66e907f662"',
 46 verbose headers   'last-modified': 'Thu, 31 Jan 2019 21:36:04 GMT',
@@ -103,13 +103,13 @@
 46 verbose headers   server: 'cloudflare',
 46 verbose headers   'content-encoding': 'gzip' }
 47 silly get cb [ 200,
-47 silly get   { date: 'Wed, 18 Dec 2019 09:48:13 GMT',
+47 silly get   { date: 'Wed, 18 Dec 2019 10:31:45 GMT',
 47 silly get     'content-type': 'application/json',
 47 silly get     'transfer-encoding': 'chunked',
 47 silly get     connection: 'keep-alive',
-47 silly get     'set-cookie': [ '__cfduid=de4ed86788389da9da0fd71d3127df0121576662493; expires=Fri, 17-Jan-20 09:48:13 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
-47 silly get     'cf-ray': '54703848eb67f423-LHR',
-47 silly get     age: '3064',
+47 silly get     'set-cookie': [ '__cfduid=dbf07a488d876951da54a785e2e41575d1576665105; expires=Fri, 17-Jan-20 10:31:45 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+47 silly get     'cf-ray': '5470780aed7ee658-LHR',
+47 silly get     age: '5676',
 47 silly get     'cache-control': 'public, max-age=300',
 47 silly get     etag: 'W/"ebc21bec19266e2b5fb7fb66e907f662"',
 47 silly get     'last-modified': 'Thu, 31 Jan 2019 21:36:04 GMT',
@@ -345,20 +345,20 @@
 99 verbose addRemoteTarball https://registry.npmjs.org/istanbul/-/istanbul-0.4.5.tgz not in flight; adding
 100 verbose addRemoteTarball [ 'https://registry.npmjs.org/istanbul/-/istanbul-0.4.5.tgz',
 100 verbose addRemoteTarball   '65c7d73d4c4da84d4f3ac310b918fb0b8033733b' ]
-101 info retry fetch attempt 1 at 9:48:12 AM
-102 info attempt registry request try #1 at 9:48:12 AM
+101 info retry fetch attempt 1 at 10:31:43 AM
+102 info attempt registry request try #1 at 10:31:43 AM
 103 http fetch GET https://registry.npmjs.org/jenkins-mocha/-/jenkins-mocha-3.0.4.tgz
-104 info retry fetch attempt 1 at 9:48:12 AM
-105 info attempt registry request try #1 at 9:48:12 AM
+104 info retry fetch attempt 1 at 10:31:43 AM
+105 info attempt registry request try #1 at 10:31:43 AM
 106 http fetch GET https://registry.npmjs.org/istanbul/-/istanbul-0.4.5.tgz
-107 http fetch 200 https://registry.npmjs.org/jenkins-mocha/-/jenkins-mocha-3.0.4.tgz
-108 http fetch 200 https://registry.npmjs.org/istanbul/-/istanbul-0.4.5.tgz
+107 http fetch 200 https://registry.npmjs.org/istanbul/-/istanbul-0.4.5.tgz
+108 http fetch 200 https://registry.npmjs.org/jenkins-mocha/-/jenkins-mocha-3.0.4.tgz
 109 silly fetchAndShaCheck shasum 8571cfeacb39c42ca29742dbd2d75f2844c2b7ad
-110 verbose addTmpTarball /tmp/npm-4293-0f3e7235/registry.npmjs.org/jenkins-mocha/-/jenkins-mocha-3.0.4.tgz not in flight; adding
+110 verbose addTmpTarball /tmp/npm-4313-91d1a42a/registry.npmjs.org/jenkins-mocha/-/jenkins-mocha-3.0.4.tgz not in flight; adding
 111 verbose addTmpTarball already have metadata; skipping unpack for jenkins-mocha@3.0.4
 112 verbose correctMkdir /root/.npm correctMkdir not in flight; initializing
 113 silly fetchAndShaCheck shasum 65c7d73d4c4da84d4f3ac310b918fb0b8033733b
-114 verbose addTmpTarball /tmp/npm-4293-0f3e7235/registry.npmjs.org/istanbul/-/istanbul-0.4.5.tgz not in flight; adding
+114 verbose addTmpTarball /tmp/npm-4313-91d1a42a/registry.npmjs.org/istanbul/-/istanbul-0.4.5.tgz not in flight; adding
 115 verbose addTmpTarball already have metadata; skipping unpack for istanbul@0.4.5
 116 verbose correctMkdir /root/.npm correctMkdir not in flight; initializing
 117 silly cache afterAdd jenkins-mocha@3.0.4
@@ -384,16 +384,16 @@
 130 silly mapToRegistry uri https://registry.npmjs.org/esprima
 131 verbose request uri https://registry.npmjs.org/esprima
 132 verbose request no auth needed
-133 info attempt registry request try #1 at 9:48:13 AM
+133 info attempt registry request try #1 at 10:31:43 AM
 134 verbose etag W/"1408d15684aa02561523c247813d3acf"
 135 verbose lastModified Sun, 29 Sep 2019 09:56:40 GMT
 136 http request GET https://registry.npmjs.org/esprima
 137 http 304 https://registry.npmjs.org/esprima
-138 verbose headers { date: 'Wed, 18 Dec 2019 09:48:14 GMT',
+138 verbose headers { date: 'Wed, 18 Dec 2019 10:31:46 GMT',
 138 verbose headers   connection: 'keep-alive',
-138 verbose headers   'set-cookie': [ '__cfduid=d50f074ac5d3e9acebfdf1329e3aa8a3c1576662494; expires=Fri, 17-Jan-20 09:48:14 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
-138 verbose headers   'cf-ray': '5470384ec8d9e600-LHR',
-138 verbose headers   age: '1998',
+138 verbose headers   'set-cookie': [ '__cfduid=d21c6321db3e29d52049c0d23aeab303e1576665106; expires=Fri, 17-Jan-20 10:31:46 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+138 verbose headers   'cf-ray': '5470781098e3e658-LHR',
+138 verbose headers   age: '4610',
 138 verbose headers   'cache-control': 'public, max-age=300',
 138 verbose headers   etag: '"1408d15684aa02561523c247813d3acf"',
 138 verbose headers   'last-modified': 'Sun, 29 Sep 2019 09:56:40 GMT',
@@ -402,11 +402,11 @@
 138 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
 138 verbose headers   server: 'cloudflare' }
 139 silly get cb [ 304,
-139 silly get   { date: 'Wed, 18 Dec 2019 09:48:14 GMT',
+139 silly get   { date: 'Wed, 18 Dec 2019 10:31:46 GMT',
 139 silly get     connection: 'keep-alive',
-139 silly get     'set-cookie': [ '__cfduid=d50f074ac5d3e9acebfdf1329e3aa8a3c1576662494; expires=Fri, 17-Jan-20 09:48:14 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
-139 silly get     'cf-ray': '5470384ec8d9e600-LHR',
-139 silly get     age: '1998',
+139 silly get     'set-cookie': [ '__cfduid=d21c6321db3e29d52049c0d23aeab303e1576665106; expires=Fri, 17-Jan-20 10:31:46 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+139 silly get     'cf-ray': '5470781098e3e658-LHR',
+139 silly get     age: '4610',
 139 silly get     'cache-control': 'public, max-age=300',
 139 silly get     etag: '"1408d15684aa02561523c247813d3acf"',
 139 silly get     'last-modified': 'Sun, 29 Sep 2019 09:56:40 GMT',
@@ -510,12 +510,12 @@
 166 verbose addRemoteTarball https://registry.npmjs.org/esprima/-/esprima-2.7.3.tgz not in flight; adding
 167 verbose addRemoteTarball [ 'https://registry.npmjs.org/esprima/-/esprima-2.7.3.tgz',
 167 verbose addRemoteTarball   '96e3b70d5779f6ad49cd032673d1c312767ba581' ]
-168 info retry fetch attempt 1 at 9:48:13 AM
-169 info attempt registry request try #1 at 9:48:13 AM
+168 info retry fetch attempt 1 at 10:31:43 AM
+169 info attempt registry request try #1 at 10:31:43 AM
 170 http fetch GET https://registry.npmjs.org/esprima/-/esprima-2.7.3.tgz
 171 http fetch 200 https://registry.npmjs.org/esprima/-/esprima-2.7.3.tgz
 172 silly fetchAndShaCheck shasum 96e3b70d5779f6ad49cd032673d1c312767ba581
-173 verbose addTmpTarball /tmp/npm-4293-0f3e7235/registry.npmjs.org/esprima/-/esprima-2.7.3.tgz not in flight; adding
+173 verbose addTmpTarball /tmp/npm-4313-91d1a42a/registry.npmjs.org/esprima/-/esprima-2.7.3.tgz not in flight; adding
 174 verbose addTmpTarball already have metadata; skipping unpack for esprima@2.7.3
 175 verbose correctMkdir /root/.npm correctMkdir not in flight; initializing
 176 silly cache afterAdd esprima@2.7.3
@@ -953,22 +953,22 @@
 233 verbose unbuild node_modules/.staging/jenkins-mocha-47f6b21b
 234 silly gentlyRm /app/node_modules/.staging/esprima-299f8767 is being purged from base /app
 235 verbose gentlyRm don't care about contents; nuking /app/node_modules/.staging/esprima-299f8767
-236 silly gentlyRm /app/node_modules/.staging/jenkins-mocha-47f6b21b is being purged from base /app
-237 verbose gentlyRm don't care about contents; nuking /app/node_modules/.staging/jenkins-mocha-47f6b21b
-238 silly gentlyRm /app/node_modules/.staging/istanbul-4c803da2 is being purged from base /app
-239 verbose gentlyRm don't care about contents; nuking /app/node_modules/.staging/istanbul-4c803da2
+236 silly gentlyRm /app/node_modules/.staging/istanbul-4c803da2 is being purged from base /app
+237 verbose gentlyRm don't care about contents; nuking /app/node_modules/.staging/istanbul-4c803da2
+238 silly gentlyRm /app/node_modules/.staging/jenkins-mocha-47f6b21b is being purged from base /app
+239 verbose gentlyRm don't care about contents; nuking /app/node_modules/.staging/jenkins-mocha-47f6b21b
 240 verbose tar unpack /root/.npm/esprima/2.7.3/package.tgz
 241 verbose tar unpacking to /app/node_modules/.staging/esprima-299f8767
 242 silly gentlyRm /app/node_modules/.staging/esprima-299f8767 is being purged
 243 verbose gentlyRm don't care about contents; nuking /app/node_modules/.staging/esprima-299f8767
-244 verbose tar unpack /root/.npm/jenkins-mocha/3.0.4/package.tgz
-245 verbose tar unpacking to /app/node_modules/.staging/jenkins-mocha-47f6b21b
-246 silly gentlyRm /app/node_modules/.staging/jenkins-mocha-47f6b21b is being purged
-247 verbose gentlyRm don't care about contents; nuking /app/node_modules/.staging/jenkins-mocha-47f6b21b
-248 verbose tar unpack /root/.npm/istanbul/0.4.5/package.tgz
-249 verbose tar unpacking to /app/node_modules/.staging/istanbul-4c803da2
-250 silly gentlyRm /app/node_modules/.staging/istanbul-4c803da2 is being purged
-251 verbose gentlyRm don't care about contents; nuking /app/node_modules/.staging/istanbul-4c803da2
+244 verbose tar unpack /root/.npm/istanbul/0.4.5/package.tgz
+245 verbose tar unpacking to /app/node_modules/.staging/istanbul-4c803da2
+246 silly gentlyRm /app/node_modules/.staging/istanbul-4c803da2 is being purged
+247 verbose gentlyRm don't care about contents; nuking /app/node_modules/.staging/istanbul-4c803da2
+248 verbose tar unpack /root/.npm/jenkins-mocha/3.0.4/package.tgz
+249 verbose tar unpacking to /app/node_modules/.staging/jenkins-mocha-47f6b21b
+250 silly gentlyRm /app/node_modules/.staging/jenkins-mocha-47f6b21b is being purged
+251 verbose gentlyRm don't care about contents; nuking /app/node_modules/.staging/jenkins-mocha-47f6b21b
 252 silly gunzTarPerm modes [ '755', '644' ]
 253 silly gunzTarPerm modes [ '755', '644' ]
 254 silly gunzTarPerm modes [ '755', '644' ]
@@ -977,15 +977,15 @@
 257 silly gunzTarPerm extractEntry package.json
 258 silly gunzTarPerm extractEntry README.md
 259 silly gunzTarPerm extractEntry esprima.js
-260 silly gunzTarPerm extractEntry .npmignore
-261 silly gunzTarPerm extractEntry README.md
+260 silly gunzTarPerm extractEntry README.md
+261 silly gunzTarPerm extractEntry .npmignore
 262 silly gunzTarPerm extractEntry README.md
 263 silly gunzTarPerm extractEntry LICENSE
 264 silly gunzTarPerm extractEntry ChangeLog
-265 silly gunzTarPerm extractEntry LICENSE
-266 silly gunzTarPerm extractEntry ci/coverage.sh
-267 silly gunzTarPerm extractEntry index.js
-268 silly gunzTarPerm extractEntry CHANGELOG.md
+265 silly gunzTarPerm extractEntry index.js
+266 silly gunzTarPerm extractEntry CHANGELOG.md
+267 silly gunzTarPerm extractEntry LICENSE
+268 silly gunzTarPerm extractEntry ci/coverage.sh
 269 silly gunzTarPerm extractEntry LICENSE.BSD
 270 silly gunzTarPerm extractEntry bin/esparse.js
 271 silly gunzTarPerm extractEntry bin/esvalidate.js
@@ -997,9 +997,9 @@
 277 silly gunzTarPerm extractEntry screwdriver.yaml
 278 silly gunzTarPerm extractEntry lib/config.js
 279 silly gunzTarPerm extractEntry lib/hook.js
-280 silly gunzTarPerm extractEntry lib/cli.js
-281 silly gunzTarPerm extractEntry lib/object-utils.js
-282 silly gunzTarPerm extractEntry test/jenkins.test.js
+280 silly gunzTarPerm extractEntry test/jenkins.test.js
+281 silly gunzTarPerm extractEntry lib/cli.js
+282 silly gunzTarPerm extractEntry lib/object-utils.js
 283 silly gunzTarPerm extractEntry lib/register-plugins.js
 284 silly gunzTarPerm extractEntry lib/reporter.js
 285 silly gunzTarPerm extractEntry lib/assets/sorter.js
@@ -1011,10 +1011,10 @@
 291 silly gunzTarPerm extractEntry lib/report/html.js
 292 silly gunzTarPerm extractEntry lib/report/index.js
 293 silly gunzTarPerm extractEntry lib/report/json-summary.js
-294 silly gunzTarPerm extractEntry lib/report/text-summary.js
-295 silly gunzTarPerm extractEntry lib/report/cobertura.js
-296 silly gentlyRm /app/node_modules/.staging/esprima-299f8767/node_modules is being purged
-297 verbose gentlyRm don't care about contents; nuking /app/node_modules/.staging/esprima-299f8767/node_modules
+294 silly gentlyRm /app/node_modules/.staging/esprima-299f8767/node_modules is being purged
+295 verbose gentlyRm don't care about contents; nuking /app/node_modules/.staging/esprima-299f8767/node_modules
+296 silly gunzTarPerm extractEntry lib/report/text-summary.js
+297 silly gunzTarPerm extractEntry lib/report/cobertura.js
 298 silly gunzTarPerm extractEntry lib/report/lcovonly.js
 299 silly gunzTarPerm extractEntry lib/report/none.js
 300 silly gunzTarPerm extractEntry lib/report/teamcity.js
@@ -1059,8 +1059,8 @@
 339 silly preinstall jenkins-mocha@3.0.4 /app/node_modules/.staging/jenkins-mocha-47f6b21b
 340 info lifecycle jenkins-mocha@3.0.4~preinstall: jenkins-mocha@3.0.4
 341 silly lifecycle esprima@2.7.3~preinstall: no script for preinstall, continuing
-342 silly lifecycle istanbul@0.4.5~preinstall: no script for preinstall, continuing
-343 silly lifecycle jenkins-mocha@3.0.4~preinstall: no script for preinstall, continuing
+342 silly lifecycle jenkins-mocha@3.0.4~preinstall: no script for preinstall, continuing
+343 silly lifecycle istanbul@0.4.5~preinstall: no script for preinstall, continuing
 344 silly doReverseSerial remove 0
 345 silly doSerial move 0
 346 silly doSerial finalize 3

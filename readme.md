@@ -43,9 +43,10 @@ Other members of your team create their development environments from the same c
 Vagrant gives you a disposable environment and consistent workflow for developing and testing infrastructure management scripts. You can quickly test things like shell scripts, Chef cookbooks, Puppet modules, and more using local virtualization such as VirtualBox or VMware. Then, with the same configuration, you can test these scripts on remote clouds such as AWS or RackSpace with the same workflow.
 
 ## vagrant init
-This initializes the vagrant environment, allowing us to access the vagrant file and thus specify the config which we want the virtual environment to use.
+This initializes the vagrant environment, allowing us to access the vagrant file and thus specify the config which we want the virtual environment to use. EXTERMELY IMPORTANT POINT, for each config , you must navigate to the folder with that vagrantfile configurations you want and use 'vagrant up'
+in that folder to spin up a virtual machine with those specific configs. Imagine 3 separate cds with different builds on them, being put into a virtual machine, but rather than physical cds we have folders which hold the vagrantfile and rather than physically inserted, are spun up using 'vagarnt up'
 
-## change to spin up xenial64 machine
+## change to spin up xenial64 machine(but can apply to any os build from the vagrant site)
 The Vagrantfile config can be specified to load ubuntu/xenial64 OS then be spun up by using ‘vagrant up’ which will start up the virtual machine OS.
 
 ## ssh
