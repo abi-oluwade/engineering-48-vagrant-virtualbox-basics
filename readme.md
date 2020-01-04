@@ -64,7 +64,7 @@ sudo nano /etc/hosts = lets us change the host name too(?)
 ifconfig -a = lets us check the inet address and the name of the second interface
 e.g enp0s8(second adapter name)
 sudo nano /etc/network/interfaces = auto (enp0s8) /iface (enp0s8) inet static/
-address <set the ip> *dashes mean new line*/ netmask<set the subnet mask>
+address <set the ip> (dashes mean new line) / netmask<set the subnet mask>
 
 - 'ssh -i .vagrant/machines/default/virtualbox/private_key vagrant@192.168.33.71
 'this command with the ip address you have set will connect the host and server
@@ -73,7 +73,7 @@ SSH.
 https://www.youtube.com/watch?v=S7jD6nnYJy0&t= <----- follow if lost
 sudo apt-get update && sudo apt-get dist-upgrade (installs packages)
 
--y lets the shell automatically accept 'yes' as an answer to the installation.
+- -y lets the shell automatically accept 'yes' as an answer to the installation.
 
 - To install multiple packages each time, create a provision.sh script, give it
 the 'sudo apt-get <whatever>', put it in the 'environment' , config the
